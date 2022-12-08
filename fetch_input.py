@@ -12,5 +12,4 @@ def get_input(day):
             'User-Agent':
             'https://github.com/kouta-kun/aoc22 AoC Automation by darkfm@vera.com.uy'
         }).content.decode('UTF-8').split('\n'):
-        line = line.strip()
         yield line
